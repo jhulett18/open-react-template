@@ -46,8 +46,8 @@ export default function Hero() {
             thumbAlt="Modal video thumbnail"
             video="/videos/marketing.mp4"
             videoWidth={1920}
-            autoPlay
-            muted
+            // autoPlay
+            // muted
             videoHeight={1080} />
 
         </div>
