@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: "Radiel";
+    src: url("/open-react-template/typefaces/Radeil-Regular-.ttf") format("ttf"),
+  }
+
+@font-face {
+    font-family: "q";
+    src: url("/open-react-template/typefaces/Quantify.ttf") format("ttf")
+  }
+
+.logo-styling{
+    
+    font-family: Radiel;
+    font-size: 1.4em;
+
+    /* color: black; */
+
+  }

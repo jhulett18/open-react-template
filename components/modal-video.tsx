@@ -6,6 +6,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
 
 interface ModalVideoProps {
+  // src: string
   thumb: StaticImageData
   thumbWidth: number
   thumbHeight: number
