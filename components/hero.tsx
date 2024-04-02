@@ -50,6 +50,7 @@ export default function Hero() {
             // muted
             videoHeight={1080} />
 
+            <p>Either Video or small animation can be placed here</p>
         </div>
 
       </div>
