@@ -11,8 +11,95 @@
   src: url("/open-react-template/typefaces/Quantify.ttf") format("ttf"),
 }
 
+.curved {
+  position: relative;
+  background: black;
+  height: 100vh;
+  width: 100%;
+  /* outline: 2px solid green; */
+  z-index: 100;
+}
+
+.curved::after {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  left: -190px;
+  width: 150%;
+  background: #fff;
+  height: 50%;
+  z-index: -999;
+}
+
+.curved h1{
+  color: white;
+  font-size: 2em;
+  /* outline: 2px solid red; */
+
+}
+
+
+/* ---------------------- SERVICES CSS  ------------------------ */
+
+.services-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+
+
+  position: relative;
+  left: 7em;
+  top: 400px;
+  
+  color: black;
+
+}
+.services-container p{
+
+   font-size: 1.7em;
+   
+}
+
+.staffing-column{
+  /* outline: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px
+}
+
+
+.staffing-column h1{
+  /* outline: 2px solid red; */
+   color: black;
+
+   font-size: 4em;
+}
+
+
+.event-column{
+  /* outline: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px
+
+}
+.event-column h1{
+  /* outline: 2px solid red; */
+   color: black;
+
+   font-size: 4em;
+
+}
+
+/* ------------------ BRAND SECTION ------------------- */
+
 .brand-section{
-    background-color: black;
+    /* background-color: black; */
 }
 
 .brand-text-container{
@@ -27,9 +114,9 @@
   width: 75%;
   /* display: flex; */
   text-align: center;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  /* color: white; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-weight: 200; */
 
 }
 
@@ -38,10 +125,12 @@
   /* display: flex; */
   text-align: center;
   color: white;
-  font-family: Radiel;
-  font-size: 2.2em;
+  /* font-family: Radiel; */
+  /* font-size: 2.2em; */
   /* font-weight: 500 */
 }
+
+/* ----------- MARQUEE----------------- */
 
 .marquee-body {
     display: flex;
@@ -69,7 +158,7 @@
   }
   
   .marquee-block {
-    padding-left: 4em;
+    padding-left: 5em;
     height: 100%;
     width: 100%;
     display: flex;
@@ -81,14 +170,16 @@
   
   .marquee-logo {
     filter: grayscale(1) contrast(0);
+    max-height: 150px;
+    max-width: 300px;
   }
   
   .marquee-content {
     display: flex;
     flex-shrink: 0;
     align-items: center;
-    -webkit-animation: slide-left 20s linear infinite;
-            animation: slide-left 20s linear infinite;
+    -webkit-animation: slide-left 30s linear infinite;
+            animation: slide-left 30s linear infinite;
   }
   @-webkit-keyframes slide-left {
     from {

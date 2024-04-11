@@ -1,9 +1,9 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
+import VideoThumb from '@/public/images/Hero/shutterstock_2371155453_edited.png'
 import ModalVideo from '@/components/modal-video'
 
 export default function Hero() {
   return (
-    <section>
+    <section className="bg-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Illustration behind hero content */}
@@ -31,7 +31,7 @@ export default function Hero() {
             your growth — in the modern world.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Contact</a>
+                <a className="btn text-black bg-gold-100 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Contact</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
@@ -50,7 +50,7 @@ export default function Hero() {
             // muted
             videoHeight={1080} />
 
-            <p>Either Video or small animation can be placed here</p>
+            {/* <p>Either Video or small animation can be placed here</p> */}
         </div>
 
       </div>
